@@ -1,0 +1,99 @@
+
+                    /*Global Settings Start  */
+@import url('../node_modules/googlefonts/lib/googlefonts.js');
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%; /* it's mean 10px default */
+    --logo-color: #1c2056;
+    --white : #ffffff;
+    --login-color: #14215e;
+    --default-color: #8b879d;
+
+}
+
+
+body{
+    min-width: 192rem;
+    margin: 0rem auto;
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--default-color);
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+                    /* Global Settings End */
+
+
+                    /* Header Start */
+header{
+    height: 100rem;
+    /* border: solid; */
+    background: url('../img/headerimg.png') center/cover no-repeat;
+}
+header .main_menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+}
+header #logo{
+    color: var(--logo-color);
+    font-weight: bold;
+    font-size: 4rem;
+}
+header #logo span{
+    color: #2870db;
+}
+header .sub_menu1{
+    display: flex;
+
+}
+header .sub_menu1 li{
+    padding: 0 2rem;
+}
+header .sub_menu1 a{
+    padding: 1rem 2.5rem;
+    display: inline-block;
+    color: var(--white);
+    font-size: 1.8rem;
+}
+header .sub_menu1 #login{
+    color: var(--login-color);
+    background: var(--white);
+    border-radius: .5rem;
+}
+header .content{
+    margin-left: 40rem;
+    width: 44rem;
+}
+header .content h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+header .content p{
+    line-height: 3.5rem;
+}
+header .content a{
+    display: inline-block;
+    padding: 2rem 3rem;
+    background: #2870db;
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 3rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+                    /* Header End */

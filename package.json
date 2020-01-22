@@ -1,0 +1,28 @@
+{
+  "name": "psdtohtml",
+  "version": "1.0.0",
+  "description": "psd to html learning",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016git remote add origin https://github.com/nikhilroy2/22-January-2020-psd-to-html-learning.git"
+  },
+  "keywords": [
+    "psd",
+    "to",
+    "html",
+    "psd",
+    "template",
+    "to",
+    "html"
+  ],
+  "author": "Nikhil Roy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "googlefonts": "^1.1.3"
+  }
+}
